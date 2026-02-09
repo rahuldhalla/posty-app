@@ -1,0 +1,18 @@
+{
+  "name": "posty-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js blog app for Markdown posts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["blog", "markdown", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "marked": "^11.0.0",
+    "ejs": "^3.1.9"
+  }
+}
